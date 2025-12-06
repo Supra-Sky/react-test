@@ -1,0 +1,106 @@
+.contentBox {
+    /* Ваши текущие стили для синего блока */
+    background: #d8e0e7; 
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Улучшенная тень */
+    padding: 20px;
+    /* Установите фиксированную или минимальную ширину для лучшего вида */
+    width: 250px; 
+    /* Можете добавить border, если хотите: */
+    /* border: 1px solid #c0c0c0; */
+}
+
+.text-input {
+    width: 90%;
+    padding: 10px 12px;
+    margin: 8px 0 15px 0; /* Отступ снизу для разделения */
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; /* Важно, чтобы padding не увеличивал общую ширину */
+    font-size: 16px;
+    background-color: #f9f9f9;
+}
+
+/* Фокус при клике на инпут */
+.text-input:focus {
+    border-color: #5555ff; /* Синий акцент */
+    box-shadow: 0 0 5px rgba(85, 85, 255, 0.5);
+    outline: none; /* Убираем стандартный синий контур браузера */
+}
+
+.primary-btn {
+    width: 100%; /* Делаем кнопку широкой */
+    background-color: #5cb85c; /* Зеленый цвет для положительных действий */
+    color: white;
+    padding: 10px 15px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.primary-btn:hover {
+    background-color: #4cae4c; /* Более темный при наведении */
+}
+
+/* Если нужно сделать кнопки в ряд (например, login/register) */
+.inline-btn-group {
+    display: flex;
+    gap: 10px; /* Расстояние между кнопками */
+    margin-bottom: 10px;
+}
+
+.inline-btn {
+    width: 100%; /* Делаем кнопку широкой */
+    background-color:#5353e7; /* Зеленый цвет для положительных действий */
+    color: white;
+    padding: 10px 15px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.inline-btn:hover {
+    background-color: #4444dd;
+}
+
+
+.middle-btn {
+    width: 100%;
+    background-color: #f89a1e; /* Красный цвет для остановки/сброса */
+    color: white;
+    padding: 10px 15px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.middle-btn:hover {
+    background-color: #cc8501;
+}
+
+.negative-btn {
+    width: 100%;
+    background-color: #d9534f; /* Красный цвет для остановки/сброса */
+    color: white;
+    padding: 10px 15px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.negative-btn:hover {
+    background-color: #c9302c;
+}
