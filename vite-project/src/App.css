@@ -1,42 +1,10 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+.main-container {
+    display: flex; /* Размещает дочерние блоки в ряд */
+    justify-content: center; /* Центрирует блоки по горизонтали */
+    gap: 20px; /* Добавляет промежуток между блоками */
+    padding: 20px; /* Отступ от края экрана */
+    min-height: 10vh; /* Занимает всю высоту viewport */
+    align-items: flex-start; /* Размещает блоки сверху */
+    /* Убедитесь, что здесь НЕТ фона или рамки, если вы хотите, чтобы фон страницы был виден */
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
-}
